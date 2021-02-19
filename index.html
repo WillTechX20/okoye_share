@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>OkoyeShare - The Free Online Social Media Platform</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="posts.html">Posts</a>
+            <a href="share.html">Share</a>
+            <div class="login_form_container">
+                <form class="login_form">
+                    <input type="username" placeholder="Username (Required!)" name="username" required>
+                    <input type="password" placeholder="Password (Required!)" name="password" required>
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+        <h1>OkoyeShare</h1>
+        <img width="200" height="200" src="images/okoyeshare_logo.png" alt="OkoyeShare Logo">
+        <form class="sign_up_form">
+            <h2>Sign Up</h2>
+            <p>Here you can sign up for OkoyeShare!</p>
+            <fieldset class="user_info">
+                <legend>User Info</legend>
+                <p class="important_info">*Required</p>
+                <input type="username" placeholder="Username" name="username" id="username" required>
+                <label for="username" class="important_info">*</label>
+                <input type="password" placeholder="Password" name="password" id="password" required>
+                <label for="password" class="important_info">*</label>
+                <textarea placeholder="Enter a description about yourself but please don't add any personal info! 
+                This is not required!" name="user_description" rows="10" cols="10"></textarea>
+                <input type="file" name="avatar_img" id="avatar_img" required>
+                <label for="avatar_img" class="important_info">*</label>
+                <p>Note: 100x100 is the recommended size for your avatar!</p>
+            </fieldset>
+            <fieldset>
+                <legend>Account Settings</legend>
+                <p class="important_info">*Required</p>
+                <p>1. Do you want people to be able to follow you?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="following_allowed" id="following_allowed" required>
+                <p>2. Do you want people to be able to like or dislike you or your posts?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="liking_or_disliking_allowed" id="liking_or_disliking_allowed" required>
+                <p>3. Do you want people to be able to add and remove tags from your posts?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="post_tagging_allowed" id="post_tagging_allowed" required>
+                <p>4. Do you want people to be able to request to be freinds with you on OkoyeShare?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="friend_requesting_allowed" id="friend_requesting_allowed" required>
+                <p>5. Do you want people to be able to share posts directly with you?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="direct_post_sharing_allowed" id="direct_post_sharing_allowed" required>
+                <p>6. Do you want people to be able to view your profile page?<sup class="important_info">*</sup></p>
+                <input type="checkbox" name="profile_page_veiwing_allowed" id="profile_page_veiwing_allowed" required>
+            </fieldset>
+            <input type="submit" value="Sign Up">
+        </form>
+        <footer>
+            <p>The website logo was made at <cite>https://www.freelogodesign.org</cite>.</p>
+            <div class="script">
+                <script src="main.js"></script>
+            </div>
+        </footer>
+    </body>
+</html>

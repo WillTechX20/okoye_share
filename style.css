@@ -1,0 +1,208 @@
+h1, h2, h3, dt {
+text-decoration: underline;
+text-decoration-color: aqua;
+}
+
+.row>* {
+display: inline;
+margin-right: 10px;
+}
+
+.row:last-child {
+margin-right: 0px;
+}
+
+html {
+text-align: center;
+font-family: system-ui;
+background-color: darkcyan;
+}
+
+footer {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+background-color: darksalmon;
+}
+
+input[type="text"], input[type="username"], input[type="password"] {
+width: 300px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: black;
+}
+
+input[type="submit"], input[type="button"] {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 300px;
+opacity: 0.9;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+opacity: 1;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #e9e9e9;
+width: 100%;
+}
+  
+.navbar a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+  
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+  
+.navbar a.active {
+background-color: #2196F3;
+color: white;
+}
+  
+.navbar .login_form_container {
+float: right;
+}
+
+form:not(.login_form) {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+background-color: darkgoldenrod;
+margin-bottom: 10px;
+}
+
+fieldset {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+background-color: darkorange;
+margin-bottom: 10px;
+}
+
+section {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+background-color: darkkhaki;
+margin-bottom: 10px;
+}
+
+.friend_request_containers, .direct_post_containers {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+}
+
+.friend_request_containers {
+background-color: darkolivegreen;
+}
+
+.direct_post_containers {
+background-color: darkcyan;
+}
+
+.friend_request_container, .direct_post_container {
+padding: 8px;
+border-radius: 20px;
+border: 3px solid black;
+margin-bottom: 10px;
+}
+
+.friend_request_container {
+background-color: darkmagenta;
+}
+
+.direct_post_container {
+background-color: gray;
+}
+
+.friend_request_container:last-child, .direct_post_container:last-child {
+margin-bottom: 0px;
+}
+
+.user_info>* {
+display: table-column;
+}
+
+.important_info {
+color: darkred;
+}
+
+textarea {
+color: black;
+resize: none;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+input[type="checkbox"]{
+width: 50px;
+height: 50px;
+fill: purple;
+}
+
+img[src="images/okoyeshare_logo.png"] {
+margin-top: 10px;
+}
+
+.section_left_side {
+float: left;
+text-align: left;
+}
+
+.section_right_side {
+float: right;
+text-align: right;
+}
+
+.details {
+height: 575px;
+}
+
+.vertical_line {
+border-left: 6px solid black;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+height: 490px;
+}
+
+.horizontal_line {
+border: 3px solid black;
+}
+
+.section_side {
+height: 490.81px;
+width: 240px;
+}
+
+.section_right_side p {
+max-width: 240px;
+}
+
+.navbar .row {
+float: right;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
