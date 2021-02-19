@@ -65,6 +65,9 @@
                 <section>
                 <footer>
                     <p>The website logo was made at <cite>https://www.freelogodesign.org</cite>.</p>
+                    <div class=\"script\">
+                        <script src=\"login.js\"></script>
+                    </div>
                 </footer>
             </body>
         </html>");
